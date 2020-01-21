@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.musicplayer.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pop"
+            style="@style/GenreStyle"
+            android:text="Pop" />
+
+        <TextView
+            android:id="@+id/rock"
+            style="@style/GenreStyle"
+            android:text="Rock" />
+
+        <TextView
+            android:id="@+id/jazz"
+            style="@style/GenreStyle"
+            android:text="Jazz" />
+
+        <TextView
+            android:id="@+id/metal"
+            style="@style/GenreStyle"
+            android:text="Metal" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
